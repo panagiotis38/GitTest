@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Toast.makeText(this,"This is the original version",Toast.LENGTH_SHORT).show()
-
-
+        Toast.makeText(this,"Some change was performed",Toast.LENGTH_SHORT).show()
     }
 }
